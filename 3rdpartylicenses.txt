@@ -10,6 +10,9 @@ MIT
 @angular/router
 MIT
 
+@angular/service-worker
+MIT
+
 @azure/msal-angular
 MIT
     MIT License

@@ -1,0 +1,93 @@
+{
+  "configVersion": 1,
+  "timestamp": 1661489120427,
+  "index": "/prototipoBCIE/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/prototipoBCIE/favicon.ico",
+        "/prototipoBCIE/index.html",
+        "/prototipoBCIE/main.519a231e1d34462e.js",
+        "/prototipoBCIE/manifest.webmanifest",
+        "/prototipoBCIE/polyfills.50a6546cc107d1e4.js",
+        "/prototipoBCIE/runtime.99fbb0d76d87122b.js",
+        "/prototipoBCIE/styles.bfdd1a21faa7abaf.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/prototipoBCIE/assets/adp.png",
+        "/prototipoBCIE/assets/asistencia.png",
+        "/prototipoBCIE/assets/banner.png",
+        "/prototipoBCIE/assets/icons/icon-128x128.png",
+        "/prototipoBCIE/assets/icons/icon-144x144.png",
+        "/prototipoBCIE/assets/icons/icon-152x152.png",
+        "/prototipoBCIE/assets/icons/icon-192x192.png",
+        "/prototipoBCIE/assets/icons/icon-384x384.png",
+        "/prototipoBCIE/assets/icons/icon-512x512.png",
+        "/prototipoBCIE/assets/icons/icon-72x72.png",
+        "/prototipoBCIE/assets/icons/icon-96x96.png",
+        "/prototipoBCIE/assets/logo.png",
+        "/prototipoBCIE/assets/sistema.png",
+        "/prototipoBCIE/banner.7f4624a400824b8b.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/prototipoBCIE/assets/adp.png": "1588f12c3bb6724df8f49fa16bdc65661d59c9d2",
+    "/prototipoBCIE/assets/asistencia.png": "9c306e4a45c11958e2c42ae1149836f68928c3e5",
+    "/prototipoBCIE/assets/banner.png": "fdf3df8a2ad8ef955138efc5246b883b3e822c4c",
+    "/prototipoBCIE/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/prototipoBCIE/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/prototipoBCIE/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/prototipoBCIE/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/prototipoBCIE/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/prototipoBCIE/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/prototipoBCIE/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/prototipoBCIE/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/prototipoBCIE/assets/logo.png": "565ac3a3e201ace14305c0a0b4d96a5256c227d9",
+    "/prototipoBCIE/assets/sistema.png": "9a0071f34afc3ee454521fc16103fb83a03fdaed",
+    "/prototipoBCIE/banner.7f4624a400824b8b.png": "fdf3df8a2ad8ef955138efc5246b883b3e822c4c",
+    "/prototipoBCIE/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/prototipoBCIE/index.html": "552e428dc2c36d0e65f91343631c4947f18ab85b",
+    "/prototipoBCIE/main.519a231e1d34462e.js": "47b57fd2d32cd07291dd316d2d1c31c363d8388d",
+    "/prototipoBCIE/manifest.webmanifest": "6b1ecba9dd07a5625d49dca408983747cbdff14c",
+    "/prototipoBCIE/polyfills.50a6546cc107d1e4.js": "4ba773f39466973651eba045c6a4b219d7528a0d",
+    "/prototipoBCIE/runtime.99fbb0d76d87122b.js": "45a9b56b4c51242d1995386ee3158429afa528e5",
+    "/prototipoBCIE/styles.bfdd1a21faa7abaf.css": "f2d09bb93011bec07dd4afb3f532e1dca26d37e0"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
