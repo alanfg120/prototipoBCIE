@@ -5,6 +5,8 @@ import { IPublicClientApplication, PublicClientApplication } from '@azure/msal-b
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 export function MSALIntanceFactory(): IPublicClientApplication {
   return new PublicClientApplication({
@@ -22,7 +24,13 @@ export function MSALIntanceFactory(): IPublicClientApplication {
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MsalModule
+    MsalModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    })
   ],
   providers: [
     {
