@@ -1,0 +1,183 @@
+nav {
+  background-color: #004bce;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+nav span {
+  font-size: 32px;
+  color: white;
+}
+
+.usuario {
+  display: flex;
+}
+
+.usuario .director {
+  font-size: 10px;
+  color: #d9d9d9b2;
+}
+.usuario .nombre {
+  font-size: 12px;
+  color: white;
+}
+
+.nombre-usuario {
+  display: flex;
+  flex-direction: column;
+  padding-top: 6px;
+}
+
+.icono {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.icono img {
+  border-right: white 1px solid;
+}
+.portal {
+  font-size: 18px;
+  color: white;
+}
+
+.input-busqueda {
+  width: 300px;
+  height: 25px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  padding: 3px;
+}
+
+.input-busqueda:focus {
+  border: none;
+}
+
+.search {
+  height: 31px;
+  width: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #acc2ea;
+}
+
+.barra {
+  display: flex;
+}
+
+.search-icon {
+  font-size: 22px !important;
+}
+
+.busqueda {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.menu {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 60px;
+  border: none;
+  border-radius: 15px;
+}
+
+.menu-icon {
+  font-size: 22px !important;
+  color: #004bce !important;
+}
+
+.header-vinculos {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: #004bce;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+::placeholder {
+  text-align: center;
+}
+
+.apps-vinculos {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.menu-icon-header {
+  font-size: 50px !important;
+}
+
+.imagen-banner {
+  height: 450px;
+  width: 100%;
+  background-image: url("./../assets/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main h2 {
+  color: #004bce;
+  font-size: 40px;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  height: 193px;
+  width: 165px;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.float {
+  display: block;
+  position: fixed;
+  float: right;
+  bottom: 25px;
+  right: 25px;
+  z-index: 10000;
+}
+
+.asistencia {
+  width: 81px;
+  height: 76px;
+  background-color: #4979d1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
